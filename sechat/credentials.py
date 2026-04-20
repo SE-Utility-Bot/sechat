@@ -98,6 +98,8 @@ class Credentials:
             "https://stackoverflow.com"
             if server == Server.STACK_OVERFLOW
             else "https://meta.stackexchange.com"
+            if server == META_STACK_EXCHANGE
+            else "https://codegolf.stackexchange.com"
         )
         cookie_root = (
             "stackoverflow.com"
